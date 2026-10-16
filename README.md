@@ -57,7 +57,7 @@ El backend en VBA se compone de dos grandes bloques operativos:
    * **Lógica de Semaforización:** Aplica `xl3TrafficLights1` bajo la siguiente regla de negocio:
 
 <div align="center">
-  <img src="./image/P001.png" alt="Descripción de la imagen" />
+  <img src="./Image/P001.png" alt="Descripción de la imagen" />
 </div>
 
 <!-- | Estado Semáforo | Condición (Arrobas) | Significado Operativo | 
@@ -111,7 +111,7 @@ Cada bloque sectorizado incluye un resumen ejecutivo superior con el formato:
 
 
 <div align="center">
-  <img src="./image/P003.png" alt="Descripción de la imagen" />
+  <img src="./Image/P003.png" alt="Descripción de la imagen" />
 </div>
 
 
