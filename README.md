@@ -56,12 +56,16 @@ El backend en VBA se compone de dos grandes bloques operativos:
 
    * **Lógica de Semaforización:** Aplica `xl3TrafficLights1` bajo la siguiente regla de negocio:
 
-| Estado Semáforo | Condición (Arrobas) | Significado Operativo | 
+<div align="center">
+  <img src="./image/P001.png" alt="Descripción de la imagen" />
+</div>
+
+<!-- | Estado Semáforo | Condición (Arrobas) | Significado Operativo | 
 | ----- | ----- | ----- | 
 | 🔴 **Rojo** | $< 5.00 \text{ @}$ | Incumplimiento de cuota mínima | 
 | 🟡 **Amarillo** | $5.00 - 6.99 \text{ @}$ | Cumplimiento Parcial | 
 | 🟢 **Verde** | $\ge 7.00 \text{ @}$ | Cumplimiento Pleno | 
-| ⚪ **Cero Entregas** | $= 0.00 \text{ @}$ | Inactividad registrada | 
+| ⚪ **Cero Entregas** | $= 0.00 \text{ @}$ | Inactividad registrada |  -->
 
 * **Maquetación Automática:** Inserta 11 filas de encabezado institucional con cuadros resúmenes consolidados antes de cada cambio de sector y genera el desglose detallado listo para impresión.
 
@@ -104,7 +108,11 @@ El backend en VBA se compone de dos grandes bloques operativos:
 ## 📊 Estructura de Salida del Reporte
 
 Cada bloque sectorizado incluye un resumen ejecutivo superior con el formato:
-![IMAGEN DE SALIDA DEL REPORTE](./image/P003.png)
+
+
+<div align="center">
+  <img src="./image/P003.png" alt="Descripción de la imagen" />
+</div>
 
 
 ## 👤 Autor y Créditos
