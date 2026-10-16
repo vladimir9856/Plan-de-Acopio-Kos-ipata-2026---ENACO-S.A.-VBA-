@@ -104,17 +104,8 @@ El backend en VBA se compone de dos grandes bloques operativos:
 ## 📊 Estructura de Salida del Reporte
 
 Cada bloque sectorizado incluye un resumen ejecutivo superior con el formato:
+![IMAGEN DE SALIDA DEL REPORTE](./image/P003.png)
 
-```
-========================================================================================
- RECORD DE ENTREGAS [FECHA] - SECTOR [NOMBRE DEL SECTOR]
-========================================================================================
- [🟢 VERDE (>=7 @)] | [🟡 AMARILLO (5-6 @)] | [🔴 ROJO (<5 @)] | [⚪ PRODUCTORES CON 0 ENTREGAS]
-----------------------------------------------------------------------------------------
-       [Total]       |        [Total]       |      [Total]     |             [Total]
-========================================================================================
-
-```
 
 ## 👤 Autor y Créditos
 
